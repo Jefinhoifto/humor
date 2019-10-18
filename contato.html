@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+    <meta charset="UTF-8">
+        <title>Humor & games</title>
+        <link rel="stylesheet" type="text/css" href="_css\estilo.css">
+        <link rel="stylesheet" type="text/css" href="_normalize\normalize.css">
+    <style>
+    body{
+        background-image: url("fundo2.jpg");
+    }    
+    </style>
+    </head>
+<body>
+
+    <header id="cabecalho">
+    <hgroup id="grupo1">
+        
+        <center><h1><em>Humor & games</h1></em></center>
+        <h2><em>Só mais um site de humor e curiosidades sobre games</em></h2>
+         
+    </hgroup> <br>
+     <Center><figure id="img2">
+        <img src="_imagens\jef.png" alt="memes1" width="180" height="180" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <img src="_imagens\jef2.png" alt="memes2" width="180" height="180" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <img src="_imagens\jef3.png" alt="memes3" width="180" height="180" >&nbsp;&nbsp;&nbsp;&nbsp;
+        <img src="_imagens\jef4.png" alt="memes4" width="180" height="180" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <img src="_imagens\jef5.png" alt="memes5" width="180" height="180" ><br><br>
+    </figure></Center>
+    <center><nav id="menu">
+    <ul>
+        <li><a href="index.html"> Home</a></li>
+        <li><a href="refugio.html">Refúgio mental</a></li>
+        <li><a href="memes.html">Memes</a></li>
+        <li><a href="sobre.html">Sobre</a></li>
+        <li><a href="contato.html">Fale conosco</a></li>
+        <h1>Menu Principal</h1>
+    </ul>   
+    </nav>
+    </header>
+    <div class="interface5">
+        <center><h1>Formulário de contato</h1></center>
+
+        <form>
+            
+        <fieldset id="usuario"><legend>Identificação do Usuário</legend>
+            <p>Nome: <input type="text" name="tNome" size="30" placeholder="nome completo.."></p>
+            <p>Senha: <input type="password" name="tSenha" placeholder="digite uma senha.."></p>
+            <p>E-mail: <input type="email" name="tmail" size="20" maxlength="40" placeholder="digite seu email.." ></p>
+           <fieldset id="sexo"><legend>sexo</legend>
+                <input type="radio" name="tSexo"/>Masculino<br>
+                <input type="radio" name="tSexo"/>Feminino</fieldset>
+            <p>Data de Nascimento:<input type="date" name="tNasc"></p>
+        </fieldset>
+
+        <fieldset id="endereco"><legend>Endereço do Usuário</legend>
+            <p>Logradouro: <input type="" name="tRua" placeholder="Rua, Av, Bairro..."></p>
+            <p>Número: <input type="number" name="tnum" placeholder="somente números..."></p>
+            <p>Estado: <select name="tEst" id="cEst">
+                <option>AC</option>
+                    <option>AL</option>
+                        <option>AP</option>
+                            <option>AM</option>
+                                <option>BA</option>
+                                    <option>CE</option>
+                                        <option>DF</option>
+                                            <option>ES</option>
+                                                <option>GO</option>
+                                                    <option>MA</option>
+                                                        <option>MT</option>
+                                                            <option>MS</option>
+                                                                <option>MG</option>
+                                                                    <option>PA</option>
+                                                                <option>PB</option>
+                                                            <option>PR</option>
+                                                        <option>PE</option>
+                                                    <option>PI</option>
+                                                <option>RJ</option>
+                                            <option>RN</option>
+                                        <option>RS</option>
+                                    <option>RO</option>
+                                <option>RR</option>
+                            <option>SC</option>
+                        <option>SP</option>
+                    <option>SE</option>
+                <option>TO</option>    
+            </select></p>
+            <p>Cidade: <input type="text" name="tCid" id="cCid" placeholder="cidade onde você mora..."> </p>
+        </fieldset> 
+            
+        <fieldset id="mensagem"><legend>Mensagem do Usuário</legend>
+            <p>Grau de Urgência: Min<input type="range" name="tGrau" id="cGrau" min="0" max="10" step="5">Max </p>
+            <p>Mensagem: <textarea name="tMsg" id="cMsg" cols="45" rows="5" placeholder="Deixe aqui sua mensagem..."></textarea></p>
+        </fieldset>
+            <button class="btn">Enviar</button>
+            <center><a href="index.html"><b>Voltar para Home</b></a></center>
+        </form>    
+    </div>
+</div>
+</body>
+</html>
